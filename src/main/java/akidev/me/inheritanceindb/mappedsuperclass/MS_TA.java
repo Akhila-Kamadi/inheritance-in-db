@@ -1,4 +1,4 @@
-package akidev.me.inheritanceindb.tableperclass;
+package akidev.me.inheritanceindb.mappedsuperclass;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;
@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity(name = "tbc_ta")
-public class TA extends User{
+@Entity(name = "ms_ta")
+public class MS_TA extends MS_User {
     private double averageRating;
 }

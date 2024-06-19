@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity(name = "tbc_instructor")
-public class Instructor extends User{
-    private String company;
+@Entity(name = "tbc_ta")
+public class TBC_TA extends TBC_User {
+    private double averageRating;
 }

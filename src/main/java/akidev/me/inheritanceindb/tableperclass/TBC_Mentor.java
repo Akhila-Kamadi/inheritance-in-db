@@ -1,14 +1,13 @@
-package akidev.me.inheritanceindb.mappedsuperclass;
+package akidev.me.inheritanceindb.tableperclass;
 
-import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Entity(name = "ms_mentor")
-public class Mentor extends User {
+@Entity(name = "tbc_mentor")
+public class TBC_Mentor extends TBC_User {
     private int numberOfSessions;
     private int numberOfMentees;
 }

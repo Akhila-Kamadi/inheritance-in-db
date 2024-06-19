@@ -6,8 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity(name = "tbc_mentor")
-public class Mentor extends User{
-    private int numberOfSessions;
-    private int numberOfMentees;
+@Entity(name = "tbc_instructor")
+public class TBC_Instructor extends TBC_User {
+    private String company;
 }

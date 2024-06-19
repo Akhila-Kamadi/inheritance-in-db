@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @Entity(name = "jt_mentor")
 @PrimaryKeyJoinColumn(name = "user_id")
-public class Mentor extends User {
+public class JT_Mentor extends JT_User {
     private int numberOfSessions;
     private int numberOfMentees;
 }

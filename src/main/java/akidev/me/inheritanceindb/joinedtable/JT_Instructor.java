@@ -9,6 +9,6 @@ import lombok.Setter;
 @Setter
 @Entity(name = "jt_instructor")
 @PrimaryKeyJoinColumn(name = "user_id")
-public class Instructor extends User {
+public class JT_Instructor extends JT_User {
     private String company;
 }

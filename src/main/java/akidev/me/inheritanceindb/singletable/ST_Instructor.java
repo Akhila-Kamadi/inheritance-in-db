@@ -1,4 +1,4 @@
-package akidev.me.inheritanceindb.singleclass;
+package akidev.me.inheritanceindb.singletable;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
@@ -9,6 +9,6 @@ import lombok.Setter;
 @Setter
 @Entity(name = "st_instructor")
 @DiscriminatorValue(value = "1")
-public class Instructor extends User {
+public class ST_Instructor extends ST_User {
     private String company;
 }
